@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<title>Tisyia's Safe Space 💜 </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-arial">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Arial", cursive}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("IMAGE/giphy.webp");
+  min-height: 80%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-purple w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">🔒</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#homepage" class="w3-bar-item w3-button"><i class= "fa fa-child"></i> HOME PAGE 💜</a>
+      <a href="#biodata" class="w3-bar-item w3-button"><i class= "fa fa-child"></i> BIODATA 💜</a>
+      <a href="#family" class="w3-bar-item w3-button"><i class="fa fa-group"></i> FAMILY 💜</a>
+      <a href="#gallery" class="w3-bar-item w3-button"><i class="fa fa-file-photo-o"></i> GALLERY 💜</a>
+      <a href="#experience" class="w3-bar-item w3-button"><i class="fa fa-moon-o"></i> EXPERIENCE 💜</a>
+      <a href="#education" class="w3-bar-item w3-button"><i class="fa fa-mortar-board"></i> EDUCATION 💜</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">HOMEPAGE</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">BIODATA</a>
+  <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">FAMILY</a>
+  <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">PHOTOS</a>
+  <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">EXPERIENCE</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">EDUCATION</a>
+</nav>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <p style="font-courier new: cursive;"><b><span class="w3-jumbo w3-hide-small">Tisyia's Sanctuary 💜</p></span></b><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Tisyia's Safe Space 💜</span><br>
+    <span class="w3-large">And there she is, living, despite it all.</span>
+    <p><a href="#homepage" class="w3-button w3-gray w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">LET'S BEGIN</a></p>
+  </div> 
+  <div class="w3-display-left w3-text-white w3-large" style="padding:24px 48px">
+    <div class="w3-container" style="padding:128px 16px" id="homepage">
+  <h3 class="w3-left">💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜 HOMEPAGE 💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜💜</h3>
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</header>
+
+<!-- Biodata Section -->
+<div class="w3-container" style="padding:128px 16px" id="biodata">
+  <h3 class="w3-center">BIODATA 💜</h3>
+  <center>
+  <img src=IMAGE/myself.png style="width:30%">
+  <img src=IMAGE/saya.png style="width:40%">
+</center>
+  <p class="w3-center w3-large">Assalamualaikum & Hello! Welcome to Tisyia's Safe Space, a simple site where you hopefully get to know me more. To keep it simple, my name is Nik Nur Batrisyia Binti Nik Mohd Izani. I was born on the 27th of November 2001 in Selangor. To be specific, I was born at Hospital Selayang. I live in Gombak, Selangor with my family for about fourteen years. I am the first child out of two siblings and I have a brother. Therefore, I need to show a good behaviour to ensure that my brother will follow my steps too. I am currently in my last semester of studying at Universiti Teknologi MARA Cawangan Negeri Sembilan Kampus Rembau in Diploma of Information Management. My favourite thing to do when I am free is watching netflix, a platform where you can watch variety of shows and listening to good music on spotify, an application that allows you to play msuic. My favourite artist at the moment is Alina Baraz, a R&B singer from America. As for my personality, I am actually an ambivert person which means that I have both qualities of an extroverted and introverted person. To describe it briefly, I am not shy around strangers but I would not hit them up first for meaningless conversation unless if it is really needed. While that being said, I only have small group of friends that I trust and really close with. Some of them were from primary school and some of them were the people that I met in university. I truly appreciate them all and I wish that we can maintain our friendship forever. Apart from that, I am also someone that loves nature and be in nature. My morning routine included walking around my neighbourhood to enjoy the nature. Other than that, there is also one person that I would like to highlight, the person that I really cherished and he always motivated me to become a better daughter, partner, friend and overall a better person in this society. Life would be different without him and I am eternally grateful that I get to know him. </p> 
+ <!--Second division-->
+  <img src="IMAGE/spotify.png" style="height:300px; margin: 5px; float: right;"/>
+  <div id="second division" style="height:600px; font-family:Arial, serif; color: black; margin: 30px;">
+  <h1>Hobbies 💜</h1>
+  <p style="line-height:2.0; font-size: 16px; "> My favourite past time is watching netflix shows and listening to music on Spotify. The shows that I watched include shows such as dramas, movies, documentary shows and reality shows. As for the music, I listened to all kind of music. I do not have any specific taste on the genre. To me, I will listen to any songs as long as it is good for me to hear. I do not limit myself to certain genre, but instead I let myself be open minded and allow myself to explore more various things. I also enjoy singing along to the music when I do my assignments or when I try to take a nap. But to be specific, my favourite artist of all time will definitely be Alina Baraz, a female R&B singer from America. The picture that I showed on the right, is my Spotify account or my profile. 
+<br>
+</br>
+<br>
+</br>
+<!--Third division-->
+  <img src="IMAGE/bofen.png" style="height:300px; margin: 5px; float: left;"/>
+  <div id="third division" style="height:600px; font-family:Arial, serif; color: black; margin: 30px;">
+<h2>Partner 💜</h2>
+<p style="line-height:2.0; font-size: 16px; "> I love going out with my partner. We lives far away from each other but he always try to spend his time to take me out. We will usually do fun activities such as food hunting at new places, going to art gallery around Kuala Lumpur as well as doing physcial activities such as riding a boat, riding a bicycle and kayaking. I love to discover new activities with him because it will allow us to create as many memories as we can. Other than that, he is always supportive of everything that I did. We have been together for about three years and 2022 will mark our four years together. I am eternally grateful for him and I truly hope that we can tie the knot as soon as I am finished with my studies.
+<br>
+</br>
+
+    
+    </div>
+  </div>
+</div>
+
+<!--Fourth division-->
+<div style="text-align: center; font-family:Arial, serif">
+  <h1>My Favourite Song</h1>
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/plaO07DDr4I" ></iframe> 
+</div>
+<br>
+</br>
+<br>
+</br>
+
+<!-- Promo Section - "Friends" -->
+<div class="w3-container w3-purple" style="padding:100px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>💕My Close Friends💕</h3>
+      <p>I truly wish for every woman to find themselves a group of sisters, that would support them in every steps of their life. Being in a sisterhood is really special and important especially when you are getting older. They are the people that will cry with you and help you through your downs and they are the one that will celebrate your achievements. Friends are as significant as a family because it is so rare to find good souls that you could connect with immediately. This is a picture of my friends. I am glad that I found them and I thank God for giving me chances to meet my people. I do not want to lose them and I hope they all the best in their journeys. I wanted them to know that I am always here to assist them through everything and I hope to celebrate their joys too. I really hope that our friendship will last until jannah inshaAllah ❤. </p>
+      <p><a href="#gallery" class="w3-button w3-gray"><i class="fa fa-th"> </i> View Another Pictures</a></p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="IMAGE/noranad.png" alt="friends" width="600" height="200">
+      <img class="w3-image w3-round-large" src="IMAGE/syityra.png" alt="friends" width="600" height="200">
+    </div>
+  </div>
+</div>
+
+<!-- Family Section -->
+<div class="w3-container" style="padding:128px 16px" id="family">
+  <h3 class="w3-center">FAMILY 💜</h3>
+  <p class="w3-center w3-large">In this section, I will introduce my family members which is my father, my mother and my brother.</p>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="IMAGE/familia.png" alt="Family" style="width:100%">
+        <div class="w3-container">
+          <h3>Nik's Family ❤</h3>
+          <p class="w3-opacity">My Precious Family</p>
+          <p>This is my small and humble family. Family is where life begins and love never ends. There are four of us in total. My parents got married at 28 and 25 years old after three years of friendship. Their wedding anniversary is on 31st of August. Hence, they have been married for about 21 years. My parents met at Kuala Lumpur, specifically at the apartment in Kampung Baru where they both rent different units together with their other friends. To me, family is really important because they are the one that you are going to spend much time with. I truly love my small family so much. </p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-comment-o"></i> Comment</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src=IMAGE/mystrongfather.png alt="Father" style="width:100%">
+        <div class="w3-container">
+          <h3>Abah ❤</h3>
+          <p class="w3-opacity">My Strong Father</p>
+          <p>Here is a picture of my father. I called him "Abah". My father's name is Nik Mohd Izani Bin Nik Ismail. He is 46 years old and he is currently working at Bank Simpanan Nasional (BSN). My father was born in Kelantan but when he was five years old, his family moved to Jengka, Pahang. To describe my father, he is very loving and funny. He shows his love by spending money on things that we want. My father is not wealthy, but he tried to fulfill our desires and needs. I do appreciate my father a lot. I really hope that I can repay his efforts to make him happy as he had done to us before.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-comment-o"></i> Comment</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="IMAGE/mylovelymother.png" alt="Mother" style="width:100%">
+        <div class="w3-container">
+          <h3>Umi ❤</h3>
+          <p class="w3-opacity">My Lovely Mother</p>
+          <p>This is my lovely mother and her name is Nozmah Binti Abdullah. My mother was born on 1st of June and she is 49 years old. My mother is currently working as a clerk in a law firm at Kuala Lumpur. My mother is very good at cooking and doing house chores. I love to eat the food that she provide because they all tasted good. My mother's height is 149cm and she is the smallest one in our family. We love to tease her because we think that she is adorable. I hope to make my mum happy by being a good daughter in whatever she thinks define being a good daughter because I love her with all of my heart.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-comment-o"></i> Comment</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="IMAGE/bumcikcikibumbum.png" alt="Brother" style="width:100%">
+        <div class="w3-container">
+          <h3>Brother ❤</h3>
+          <p class="w3-opacity">My Cute Brother</p>
+          <p>This is my one and only brother. His name is Nik Thaqif Baihaqi Bin Nik Mohd Izani. He is 17 years old. He was born on 14th of August 2004. He is currently at his dorm, Maahad Tahfiz Integrasi Madinatul Huffaz. He will be sitting for the national examination next year, which is SPM. My brother is very special because he is the only person in our family that memorised the Quran. I am so proud of him because he managed to finish it when he was 16. Moreover, my brother is an easygoing person, hence, when I ask for help, he will always do it. I feel so blessed to have him as my brother.</p>
+          <p><button class="w3-button w3-light-grey w3-block"><i class="fa fa-comment-o"></i> Comment</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section "Age of My Family" -->
+<div class="w3-container w3-row w3-center w3-purple w3-padding-64">
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">46 y/o</span>
+    <br>My Father
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">49 y/o</span>
+    <br>My Mother
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">20 y/o</span>
+    <br> Me
+  </div>
+  <div class="w3-quarter">
+    <span class="w3-xxlarge">17 y/o</span>
+    <br> My Brother
+  </div>
+</div>
+
+<!-- Gallery Section -->
+<div class="w3-container" style="padding:128px 16px" id="gallery">
+  <h3 class="w3-center">PHOTOS 💜</h3>
+  <p class="w3-center w3-large">A moment lasts all of a second, but the memory will lives on forever. I love to capture every single things that happens in my life including pictures of my family, my partner, my small circles of friends and things that I love. I appreciate every single people and memories that are in my life right now. For me, the best things in life are not things, they are moments. Aside from my people, I also love taking picture of foods, skies, cats and arts. Most of them were captured while I do my routine such as taking a walk in the morning, going on dates on weekend and spending time with my family. These are some memorable pictures of things that I captured and I absolutely loved and it sometimes include my family, partner and friends that I would like to keep forever, in my memory and heart 💕.</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/glaze.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Food Hunting">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/gallery1.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Art">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/picnic.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Picnic">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/sky.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sky">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/ge.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Boyfriend">
+    </div>
+    <div class="w3-col l3 m6">
+    <img src="IMAGE/mirror.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Girlfriends">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/resort.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Family">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/ikea.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Close Friends">
+    </div>
+  </div>
+
+<div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/birthday.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Birthday Celebration">
+    </div>
+    <div class="w3-col l3 m6">
+    <img src="IMAGE/nora.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Gallery Date">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/rainbow.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Rainbow">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/sya.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Me">
+    </div>
+  </div>
+
+   <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/titiwangsa.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Morning Walk">
+    </div>
+    <div class="w3-col l3 m6">
+    <img src="IMAGE/birthday2.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="During Birthday">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/cats.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Random Cats">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/walk.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Walk">
+    </div>
+  </div>
+
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/sungai.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sungai Inki">
+    </div>
+    <div class="w3-col l3 m6">
+    <img src="IMAGE/aisyah.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Best Friend">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/kenduri.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Myself">
+    </div>
+    <div class="w3-col l3 m6">
+      <img src="IMAGE/pottery.png" style="width:88%" onclick="onClick(this)" class="w3-hover-opacity" alt="Art Exhibit">
+    </div>
+  </div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-transparent" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p style="background-color: black; color: white;" id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+
+<!-- Experience Section -->
+<div class="w3-container w3-center w3-purple" style="padding:77px 16px" id="experience">
+  <img src="IMAGE/umrah.png" style="height: 360px; margin: 88px; float: left;/">
+    <h1 style="font-family: sans-serif; font-size: 25px; color: black;">EXPERIENCE 💜 </h1>
+    <p style="line-height: 2.0; font-family: sans-serif; font-size: 18px; color: black;"> Among the experiences that I have been through in my life, there is one that I could not forget about, it is when I got the chance to perform Umrah with my family in December 2018 after my examination. It is genuinely one of the most life-changing and eye-opening experience I have ever had. I am grateful for my parents because they worked really hard to afford our whole family to Saudi Arabia. I truly hope that we could go there again one day. May Allah S.W.T invite us to be His guests again, InshaAllah.
+    <p style="line-height: 2.0; font-family: sans-serif; font-size: 18px; color: black;">Apart from that, my experience in terms of working aspect is that I once worked as a cashier at Galeri Ariani in Jakel Mall, Kuala Lumpur. I started working in April 2019 and I quit in July because I need to further my study in UiTM. There are many lessons that I could learn from working there such as we have to always be humble, we have to be honest when we work and we have to be efficient while working. I am grateful that I made new friends and still keep in touch with some people there.
+    <p style="line-height: 2.0; font-family: cursive; font-size: 18px; color: black;">
+    </p>
+  </div>
+</div>
+
+
+<!-- Education Section -->
+<div class="w3-container w3-white" style="padding:128px 16px" id="education">
+  <h3 class="w3-center">EDUCATION 💜</h3>
+  <center><img src=IMAGE/uitm.png style="width:30%"></center>
+  <p class="w3-center w3-large">I received my early education at Tadika Titian Sayang. I went to Sekolah Kebangsaan Taman Selasih for primary school and I got 4A1B in UPSR. As for my secondary education, I went to Sekolah Menengah Kebangsaan Seri Gombak for my high school and I got 6A for my PT3 & 3A for my SPM. For my tertiary education, I am currently in my last year studying in UiTM Cawangan Negeri Sembilan Kampus Rembau in Diploma in Information Management. As this is my last year in diploma, I hope I can achieve a good result. I am planning to continue my degree as I already send the form in November.</p>
+  <p class="w3-center w3-large">Let's get in touch. Send me a message:</p>
+  <div style="margin-top:48px">
+    <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Gombak, Selangor</p>
+    <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: +60 123843697</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email: sobatrisyia@gmail.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-gray w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-gray w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-gray w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-gray w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-purple" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+    
+<!-- Footer -->
+<footer class="w3-center w3-purple w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
